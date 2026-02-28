@@ -7,7 +7,7 @@ public:
 
 private:
     std::string stemEnglish(const std::string& word);
-    std::string stemIndonesia(const std::string& word);
+    std::string stemIndonesian(const std::string& word);
 
     bool isIndonesian(const std::string& word);
 };
