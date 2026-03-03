@@ -11,6 +11,7 @@ public:
     std::string rawText;
     std::vector<std::string> tokens;
     std::unordered_map<std::string, int> termFrequency;
+    std::unordered_map<std::string, double> tfidf;
 
     Document(int docId, const std::string& text);
 

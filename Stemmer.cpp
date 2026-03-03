@@ -16,7 +16,7 @@ string Stemmer::stem(const string& word){
 }
 
 bool Stemmer::isIndonesian(const string& word){
-    if (word.rfind("me", 0)== 0|| word.rfind("ber", 0)== 0|| word.rfind("ter", 0)== 0|| word.rfind("pe", 0)== 0) return true;
+    if (word.rfind("me", 0)== 0|| word.rfind("ber", 0)== 0|| word.rfind("ter", 0)== 0|| word.rfind("pem", 0)== 0) return true;
 
     if (word.size()> 3){
         if (endsWith(word, "kan")|| endsWith(word, "nya")|| endsWith(word, "lah")) return true;

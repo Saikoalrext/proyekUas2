@@ -5,10 +5,9 @@
 #include <unordered_map>
 #include "Stemmer.h"
 
-Stemmer stemmer;
-
 class TextProcessor
 {
+    Stemmer stemmer;
 public:
     TextProcessor();
 

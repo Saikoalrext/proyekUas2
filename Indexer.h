@@ -15,6 +15,7 @@ public:
     void addDocument(const Document& doc);
     void computeDocumentFrequency();
 
+    std::vector<Document>& getDocuments();
     const std::vector<Document>& getDocuments() const;
     const std::unordered_map<std::string, int>& getDF() const;
 };

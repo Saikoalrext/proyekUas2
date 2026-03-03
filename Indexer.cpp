@@ -23,6 +23,10 @@ void Indexer::computeDocumentFrequency(){
     }
 }
 
+vector<Document>& Indexer::getDocuments(){
+    return documents;
+}
+
 const vector<Document>& Indexer::getDocuments() const{
     return documents;
 }
